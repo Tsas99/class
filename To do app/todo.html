@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./todo.css" />
+    <script src="https://kit.fontawesome.com/4bfca693a7.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="stages" id="stages"></div>
+    <div class="modal" id="modal">
+      <div class="todo-card" id="todo-card"></div>
+      <div class="modal-container" id="modalContainer" >
+        <h1 class="add-task-title">Add Task</h1>
+        <p id="title">Title</p>
+        <input class="input-title" type="text" id="title-input">
+        <p id="description">Description</p>
+        <input class="input-description" type="text" id="desc-input">
+        <p>Status</p>
+        <select name="tasks"  id="status" class="select1" >
+            <option value="todo">To do</option>
+            <option value="inprogress">in progress</option>
+            <option value="stuck">Stuck</option>
+            <option value="done">Done</option>
+          </select>
+        <p>Priority</p>
+        <select name="tasks" id="priority" class="select2">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        <div >
+          <button class="add-task" id="add-task">Add Task</button>
+        </div> 
+        </div> 
+    </div>
+  </body>
+  <script src="./todo.js"></script>
+</html>
+
+

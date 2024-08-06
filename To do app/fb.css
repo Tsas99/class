@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #f1f4f7;
+}
+.fb-container{
+    width: 396px;
+    height: 345px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    margin-top: 300px;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 500px;
+}
+.fb-email{
+    width: 354px;
+    height: 52px;
+}
+.fb-pass{
+    width: 354px;
+    height: 52px;
+}
+.log-in{
+    width: 364px;
+    height: 48px;
+    background-color: #0765ff;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+.forgot-pass{
+    color: #4f8fff;
+    font-size: 14px;
+}
+.create{
+    height: 48px;
+    width: 195px;
+    border-radius: 5px;
+    border: none;
+    background-color: #42b729;
+    color: #ffffff;
+}

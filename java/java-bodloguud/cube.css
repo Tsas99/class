@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  padding: 3px;
+  height: 335px;
+  width: 335px;
+  border: 1px solid #000000;
+}
+.inner-container {
+  width: 162px;
+  height: 162px;
+  border: 1px solid pink;
+  background-color: black;
+}
+.number {
+  width: 140px;
+  height: 140px;
+  color: white;
+  font-size: 128px;
+  background-color: #c0c0c0;
+}
